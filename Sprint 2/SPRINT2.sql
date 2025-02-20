@@ -3,13 +3,13 @@ SELECT distinct country
 FROM company 
 JOIN transaction ON company.id=transaction.company_id;
 
-SELECT count(DISTINCT company.country)
+SELECT count(DISTINCT company.country) AS PaisesQueCompran
 FROM company 
 JOIN transaction ON company.id=transaction.company_id;
 
 SELECT company.company_name, AVG (transaction.amount) AS company_sales
 FROM company
-JOIN transaction on company_id=transaction.company_id
+JOIN transaction on company_id=company.id
 GROUP BY company_name
 ORDER BY company_sales DESC
 LIMIT 1;
@@ -72,8 +72,6 @@ WHERE transaction.company_id IN (
 SELECT company.company_name, 
 company.phone,
  company.country,
- company.email,
- company.website,
 DATE(transaction.timestamp) AS fecha , transaction.amount
 FROM transaction
 JOIN company ON transaction.company_id=company.id
@@ -101,7 +99,7 @@ SELECT company.company_name,
            ELSE '4 transaccions o menys'  
        END AS classificacio  
 FROM company  
-LEFT JOIN transaction ON company.id = transaction.company_id  
+JOIN transaction ON company.id = transaction.company_id  
 GROUP BY company.company_name  
 ORDER BY num_transaccions DESC;
     
