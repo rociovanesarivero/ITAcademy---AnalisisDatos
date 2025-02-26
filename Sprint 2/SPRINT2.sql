@@ -22,7 +22,7 @@ WHERE company_id IN (
     );
 
 
-SELECT company_name 
+SELECT DISTINCT company_name 
 FROM company  
 WHERE id IN (  
     SELECT company_id FROM transaction  
