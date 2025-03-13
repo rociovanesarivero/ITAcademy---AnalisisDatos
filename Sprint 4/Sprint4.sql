@@ -99,6 +99,11 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
+UPDATE credit_cards
+
+SET expiring_date = STR_TO_DATE(expiring_date, '%d/%m/%y');
+
+ALTER TABLE credit_cards MODIFY expiring_date DATE;
 -- (id, name, surname, phone,email, @birth_date,country,city,postal_code,address)  
 -- SET birth_date = STR_TO_DATE(@birth_date, '%b %d, %Y');
 
