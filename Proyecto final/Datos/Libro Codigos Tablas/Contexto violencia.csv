@@ -1,0 +1,39 @@
+Zona,,
+Etiqueta,,Tipo de zona en que ocurrio el hecho
+1,Urbana,
+2,Rural,
+Contexto_violencia_sexual,,
+Etiqueta,,Femicidio cometido en contexto de violencia sexual
+1,Si,
+Contexto_encierro_institucional,,
+Etiqueta,,Femicidio cometido en contexto de encierro institucional
+1,Si,
+Contexto_redes,,
+Etiqueta,,"Femicidio cometido en contexto de redes de trata de
+personas, trafico de estupefacientes o delincuencia
+organizada"
+,,
+1,Si,
+Contexto_discriminacion,,
+Etiqueta,,"Femicidio cometido en contexto de discriminacion por
+orientación sexual/identidad de genero/expresion de
+genero"
+,,
+1,Si,
+Contexto_violencia_domestica,,
+Etiqueta,,Femicidio cometido en contexto de violencia domestica
+1,Si,
+Contexto_otro,,
+Etiqueta,,Femicidio cometido en otro contexto
+1,Si,
+Contexto_violencia_genero,,
+Etiqueta,,Femicidio cometido en contexto de violencia de genero
+1,Si,
+Etapa_causa,,
+Etiqueta,,Etapa judicial en que se encuentra la causa
+1,Investigacion,
+2,Juicio,
+3,Sentencia NO firme,
+4,Sentencia firme,
+5,Archivo,
+999,Sin datos,

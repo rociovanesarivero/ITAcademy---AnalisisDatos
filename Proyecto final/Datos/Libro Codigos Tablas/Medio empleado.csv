@@ -1,0 +1,21 @@
+Id,Medio empleado para cometer el femicidio
+1,Arma de fuego reglamentaria
+2,Arma de fuego autorizada (no reglamentaria)
+3,Arma de fuego no autorizada
+4,Arma de fuego sin datos de autorizacion
+5,Arma blanca
+6,Fuego / otros medios combustibles
+7,Por intoxicación / venenos
+8,Fuerza fìsica
+9,Otro medio
+10,"Arma de fuego sin datos de autorizacion y fuego / otros medios
+combustibles"
+11,Arma de fuego sin datos de autorizacion y fuerza fisica
+12,Arma blanca y fuego / otros medios combustibles
+13,Arma blanca y fuerza fisica
+14,Arma blanca y otro medio
+15,Fuego / otros medios combustibles y fuerza fisica
+16,Fuerza fisica y otro medio
+17,"Arma blanca, fuerza fisica y otro medio"
+18,"Arma blanca, fuego / otros medios combustibles y otro medio"
+999,Sin datos

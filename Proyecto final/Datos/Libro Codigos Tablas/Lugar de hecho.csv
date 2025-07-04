@@ -1,0 +1,10 @@
+Id,Lugar del hecho
+1,Vivienda de la victima
+2,Vivienda del sujeto activo
+3,Vivienda compartida entre la victima y el sujeto activo
+4,Otra vivienda (ni de la victima ni del sujeto activo)
+5,Hotel  (sin residencia permanente)
+6,Lugar de trabajo de la victima
+7,Espacio publico
+8,Otro lugar
+999,Sin datos

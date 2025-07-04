@@ -1,0 +1,12 @@
+Id,Maximo nivel educativo alcanzado por la victima
+0,No aplica (de 0 a 5 años)
+1,Sin estudios
+2,Primario incompleto
+3,Primario completo
+4,Secundario incompleto
+5,Secundario completo
+6,Terciario incompleto
+7,Terciario completo
+8,Universitario incompleto
+9,Universitario completo
+999,Sin datos
